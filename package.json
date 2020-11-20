@@ -1,13 +1,18 @@
 {
-    "name": "rainglow",
+    "name": "rainglow-tweaked",
     "version": "1.5.2",
     "displayName": "Rainglow",
     "description": "Rainglow color themes by Dayle Rees",
-    "publisher": "daylerees",
+    "publisher": "sumigoma",
     "repository": "https://github.com/rainglow/vscode",
     "license": "MIT",
     "icon": "icon.png",
-    "keywords": ["rainglow", "dayle", "rees", "peacock"],
+    "keywords": [
+        "rainglow",
+        "dayle",
+        "rees",
+        "peacock"
+    ],
     "engines": {
         "vscode": "^1.13.0"
     },
@@ -20,7 +25,7 @@
                 "label": "Absent Contrast (rainglow)",
                 "uiTheme": "vs-dark",
                 "path": "./themes/absent-contrast.json"
-            },       
+            },
             {
                 "label": "Absent (rainglow)",
                 "uiTheme": "vs-dark",
@@ -35,7 +40,7 @@
                 "label": "Allure Contrast (rainglow)",
                 "uiTheme": "vs-dark",
                 "path": "./themes/allure-contrast.json"
-            },       
+            },
             {
                 "label": "Allure (rainglow)",
                 "uiTheme": "vs-dark",
@@ -95,7 +100,7 @@
                 "label": "Blink Contrast (rainglow)",
                 "uiTheme": "vs-dark",
                 "path": "./themes/blink-contrast.json"
-            },       
+            },
             {
                 "label": "Blink (rainglow)",
                 "uiTheme": "vs-dark",
@@ -260,7 +265,7 @@
                 "label": "Dare Contrast (rainglow)",
                 "uiTheme": "vs-dark",
                 "path": "./themes/dare-contrast.json"
-            },       
+            },
             {
                 "label": "Dare (rainglow)",
                 "uiTheme": "vs-dark",
@@ -365,7 +370,7 @@
                 "label": "Friction Contrast (rainglow)",
                 "uiTheme": "vs-dark",
                 "path": "./themes/friction-contrast.json"
-            },       
+            },
             {
                 "label": "Friction (rainglow)",
                 "uiTheme": "vs-dark",
@@ -615,7 +620,7 @@
                 "label": "Jewel Contrast (rainglow)",
                 "uiTheme": "vs-dark",
                 "path": "./themes/jewel-contrast.json"
-            },       
+            },
             {
                 "label": "Jewel (rainglow)",
                 "uiTheme": "vs-dark",
@@ -630,7 +635,7 @@
                 "label": "Jingle Contrast (rainglow)",
                 "uiTheme": "vs-dark",
                 "path": "./themes/jingle-contrast.json"
-            },       
+            },
             {
                 "label": "Jingle (rainglow)",
                 "uiTheme": "vs-dark",
@@ -645,7 +650,7 @@
                 "label": "Joker Contrast (rainglow)",
                 "uiTheme": "vs-dark",
                 "path": "./themes/joker-contrast.json"
-            },       
+            },
             {
                 "label": "Joker (rainglow)",
                 "uiTheme": "vs-dark",
@@ -930,7 +935,7 @@
                 "label": "Overflow Contrast (rainglow)",
                 "uiTheme": "vs-dark",
                 "path": "./themes/overflow-contrast.json"
-            },       
+            },
             {
                 "label": "Overflow (rainglow)",
                 "uiTheme": "vs-dark",
@@ -1020,7 +1025,7 @@
                 "label": "Penitent Contrast (rainglow)",
                 "uiTheme": "vs-dark",
                 "path": "./themes/penitent-contrast.json"
-            },       
+            },
             {
                 "label": "Penitent (rainglow)",
                 "uiTheme": "vs-dark",
@@ -1050,7 +1055,7 @@
                 "label": "Pleasure Contrast (rainglow)",
                 "uiTheme": "vs-dark",
                 "path": "./themes/pleasure-contrast.json"
-            },       
+            },
             {
                 "label": "Pleasure (rainglow)",
                 "uiTheme": "vs-dark",
@@ -1380,7 +1385,7 @@
                 "label": "Tame Contrast (rainglow)",
                 "uiTheme": "vs-dark",
                 "path": "./themes/tame-contrast.json"
-            },       
+            },
             {
                 "label": "Tame (rainglow)",
                 "uiTheme": "vs-dark",
@@ -1525,7 +1530,7 @@
                 "label": "Volatile Contrast (rainglow)",
                 "uiTheme": "vs-dark",
                 "path": "./themes/volatile-contrast.json"
-            },       
+            },
             {
                 "label": "Volatile (rainglow)",
                 "uiTheme": "vs-dark",
@@ -1600,7 +1605,7 @@
                 "label": "Vegetable Contrast (rainglow)",
                 "uiTheme": "vs-dark",
                 "path": "./themes/vegetable-contrast.json"
-            },       
+            },
             {
                 "label": "Vegetable (rainglow)",
                 "uiTheme": "vs-dark",
@@ -1642,5 +1647,8 @@
                 "path": "./themes/zacks-light.json"
             }
         ]
+    },
+    "devDependencies": {
+        "glob": "^7.1.6"
     }
 }
